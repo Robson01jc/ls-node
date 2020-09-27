@@ -1,8 +1,3 @@
-const counterObject = require("./myscript.js");
+const fs = require("fs");
 
-console.log(counterObject.getCounter());
-counterObject.incrementCounter();
-console.log(counterObject.getCounter());
 
-const newCounterObject = require("./myscript.js");
-console.log(newCounterObject.getCounter());
