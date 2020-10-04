@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Robson01jc/ls-node#readme",
   "bin": {
     "nls": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
   }
 }
